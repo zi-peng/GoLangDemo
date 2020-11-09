@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-11-09 17:26:01
- * @,@LastEditTime: ,: 2020-11-09 19:40:50
+ * @,@LastEditTime: ,: 2020-11-09 20:07:12
  * @,@LastEditors: ,: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \goCode\main.go
@@ -16,7 +16,8 @@ const b = 5
 // 导入内置 fmt 包
 
 func main() { // main函数，是程序执行的入口
-	f.Println("hello1111")
+	//pointerDemo()
+	stringPointer()
 }
 
 func funcDemo(a int, b int) (int, int) {
