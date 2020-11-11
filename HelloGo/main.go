@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-11-09 17:26:01
- * @,@LastEditTime: ,: 2020-11-09 20:07:12
+ * @,@LastEditTime: ,: 2020-11-10 12:26:06
  * @,@LastEditors: ,: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \goCode\main.go
@@ -17,7 +17,7 @@ const b = 5
 
 func main() { // main函数，是程序执行的入口
 	//pointerDemo()
-	stringPointer()
+
 }
 
 func funcDemo(a int, b int) (int, int) {
