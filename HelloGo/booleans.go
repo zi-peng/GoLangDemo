@@ -1,7 +1,7 @@
 /*
  * @,@Author: ,: your name
  * @,@Date: ,: 2020-11-10 12:24:13
- * @,@LastEditTime: ,: 2020-11-10 18:25:24
+ * @,@LastEditTime: ,: 2020-11-11 17:21:26
  * @,@LastEditors: ,: Please set LastEditors
  * @,@Description: ,: In User Settings Edit
  * @,@FilePath: ,: \GoLangDemo\HelloGo\booleans.go
@@ -10,14 +10,13 @@ package main
 
 import (
 	"fmt"
-	"runtime"
 )
 
 func init() {
 
-	if runtime.GOOS == "windows" {
-		fmt.Printf(runtime.GOOS)
-	}
+	// if runtime.GOOS == "windows" {
+	// 	fmt.Printf(runtime.GOOS)
+	// }
 }
 
 func demo2() {
